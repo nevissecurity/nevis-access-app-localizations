@@ -2,7 +2,7 @@
 
 # Nevis Access App Localizations
 
-This repository contains the base localizations .csv file for the [Nevis Access App](https://docs.nevis.net/nevisaccessapp/) which contains all transaltion keys and default values for all supported languages.
+This repository contains the base localizations .csv file for the [Nevis Access App](https://docs.nevis.net/nevisaccessapp/) which contains all translation keys and default values for all supported languages.
 Nevis supplies standard translations of all app messages.
 
 
