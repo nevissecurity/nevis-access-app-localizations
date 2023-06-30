@@ -9,7 +9,7 @@ Nevis supplies standard translations of all app messages.
 The `localizations.csv` is used in our [Ordering an Access app](https://docs.nevis.net/nevisaccessapp/ordering-an-access-app) process when a customer orders a branded Access application. For more information about the purpose of `localizations.csv` file and its structure read the corresponding [chapter](https://docs.nevis.net/nevisaccessapp/ordering-an-access-app#localizations).
 
 The purpose of publication of `localizations.csv` file is to ease to follow its changes for the customers. At every new release of the Nevis Access application a new `localizations.csv` will be published and tagged, this way newly introduced translation keys and modified values for existing transation keys can be easily checked in history.  
-The [release tags](https://github.com/nevissecurity/nevis-access-app-localizations/tags) indicate a specific, released Access App version - for example `releases/2.6.x`. The `next` tag indicates the *localizations.csv* file for the next unreleased Access App version.
+The [release tags](https://github.com/nevissecurity/nevis-access-app-localizations/tags) indicate a specific, released Access App version - for example `releases/2.6.x`. The `next` tag indicates the `localizations.csv` file for the next unreleased Access App version.
 
 # Custom translations
 
