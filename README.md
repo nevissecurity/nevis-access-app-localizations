@@ -20,6 +20,47 @@ Provide the changed `localizations.csv` file via the [Nevis Portal Ticketing Sys
 Keep the formatting of the file in place. Every entry must be comma separated and enclosed with `"`.
 We cannot accept spreadsheet files like Microsoft Excel.
 
+# Comparing localization versions
+
+There are several ways you're able to compare different localization versions.
+
+## GitHub Compare feature
+
+Use the [GitHub compare feature](https://github.com/nevissecurity/nevis-access-app-localizations/compare) to get a complete set of all changes, simply select the two tags you're interested in.
+
+## Find missing keys bash script
+
+If you want to easily find out whether new translation keys have been added, the following bash script can help you.
+It takes two .csv files as input arguments and will list all missing keys in the second .csv file.
+
+```
+#!/bin/bash
+
+# Check if two file names are passed as arguments
+if [ $# -ne 2 ]; then
+  echo "Error: Please provide the names of two files as arguments."
+  exit 1
+fi
+
+# Store the first column of each file in separate arrays
+file1=($(cut -d ',' -f 1 "$1"))
+file2=($(cut -d ',' -f 1 "$2"))
+
+# Iterate over each element in the first array
+echo "The following keys are missing in the second .csv file:"
+echo ""
+for i in "${file1[@]}"; do
+  # Check if the current element is not in the second array
+  if ! [[ " ${file2[@]} " =~ " ${i} " ]]; then
+    # If not, print the missing element
+    echo $i
+  fi
+done
+```
+
+1. Add the lines to a file, for example compare.sh
+2. Make the script executable: chmod +x compare.sh
+3. Usage: `./compare.sh next/localizations.csv 2.7.x/localizations.csv`
 
 # Communication
 
