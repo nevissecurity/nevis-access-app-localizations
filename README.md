@@ -68,4 +68,4 @@ done
 - Visit our [website](https://www.nevis.net/en/solution/authentication-cloud)
 - Contact us on email: [sales@nevis.net](mailto:sales@nevis.net)
 
-© 2023 made with ❤ by Nevis
+© 2024 made with ❤ by Nevis
