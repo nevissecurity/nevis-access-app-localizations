@@ -1,11 +1,11 @@
 Key,en,de,fr,it,hu,zh,ar
 home_screen_title,"Welcome to\n<app_name>","Willkommen in der \n<app_name>","Bienvenue dans\n<app_name>","Benvenuto in\n<app_name>","<app_name>","欢迎使用\n<app_name>","مرحبًا في\n<app_name>"
-home_screen_scan,"Scan QR Code","QR-Code scannen","Scanner Code QR","Scansionare QR Code","QR-kód beolvasás","扫描二维码","مسح رمز الاستجابة السريعة"
+home_screen_scan,"Scan QR Code","QR-Code scannen","Scanner le code QR","Scansionare QR Code","QR-kód beolvasás","扫描二维码","مسح رمز الاستجابة السريعة"
 home_screen_register,"Register with Password","Mit Passwort registrieren","S'enregistrer avec un mot de passe","Registrati tramite password","Regisztráció jelszóval","使用密码注册","التسجيل بواسطة كلمة المرور"
 home_screen_authenticate,"Simulate In-Band Authentication","In-Band-Authentifizierung simulieren","Simuler Authentification In-Band","Simula l'autenticazione In-Band","In-Band autentikáció szimulálása","模拟带内验证","محاكاة المصادقة داخل النطاق"
 home_screen_authenticate_and_register,"Register with In-Band Authentication","Registrierung mit In-Band-Authentifizierung","S'enregistrer avec Authentification In-Band","Registrarsi con l'autenticazione In-Band","Regisztráció In-Band autentikációval","使用带内认证进行注册","التسجيل بواسطة المصادقة داخل النطاق"
 home_screen_settings,"Settings","Einstellungen","Préférences","Impostazioni","Beállítások","设置","الإعدادات"
-scanner_screen_title,"Scan QR Code","QR-Code scannen","Scanner Code QR","Scansionare QR Code","QR-kód beolvasás","扫描二维码","مسح رمز الاستجابة السريعة"
+scanner_screen_title,"Scan QR Code","QR-Code scannen","Scanner le code QR","Scansionare QR Code","QR-kód beolvasás","扫描二维码","مسح رمز الاستجابة السريعة"
 scanner_screen_description,"Place the QR code inside the frame","Platzieren Sie den QR-Code innerhalb des Rahmens","Placez le code QR à l'intérieur du cadre","Posiziona il codice QR all'interno del riquadro","Igazítsa a QR-kódot a keretbe","将二维码置于框内区域","ضع رمز الاستجابة السريعة داخل الإطار"
 scanner_screen_access_denied_title,"Camera Access Denied","Kamerazugriff verweigert","Accès à la caméra refusé","Accesso alla fotocamera non consentito","A kamera használata nincs engedélyezve","无相机访问权限","تم رفض الوصول إلى الكاميرا"
 scanner_screen_access_denied_description,"Authorize the application to access the camera in order to scan a QR code","Sie müssen die App autorisieren auf die Kamera zuzugreifen um einen QR-Code zu scannen.","Vous devez autoriser l'application à accéder à la caméra pour scanner le code QR","Devi autorizzare l'applicazione ad accedere alla fotocamera per poter scansionare il codice QR.","Engedélyezze az alkalmazásnak a kamera használatát a QR-kód beolvasásához.","您需要启用相机访问权限才能使用二维码扫描功能","قم بتفويض التطبيق للوصول إلى الكاميرا لمسح رمز الاستجابة السريعة"
